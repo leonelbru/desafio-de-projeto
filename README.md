@@ -40,4 +40,4 @@ Além disso, usei o atributo `title` nas abreviações e links, garantindo que l
 
 > Este projeto faz parte do meu processo de aprendizado. Cada linha escrita foi uma forma de revisar o conteúdo de forma ativa e significativa. Ainda há muito a explorar, mas este foi um primeiro passo importante.
 
-Espero não ter esquecido de nada. 😊
+Espero não ter esquecido de nada. 
