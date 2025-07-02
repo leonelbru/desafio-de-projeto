@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <m
+eta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio - Primeiros Passos com HTML</title>
+</head>
+<body>
+  <h1 id="topo">Módulo 1 - Primeiros Passos com HTML</h1>
+  <hr>
+
+  <h2>Índice</h2>
+  <ul>
+    <li><a href="#historia">História dos computadores</a></li>
+    <li><a href="#clients">O que são Clients?</a></li>
+    <li><a href="#servers">O que são Servers?</a></li>
+    <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+    <li><a href="#listas">Listas ordenadas e não ordenadas</a></li>
+    <li><a href="#referencias">Links de referências</a></li>
+    <li><a href="#semantica">Semântica</a></li>
+<li><a href="#acessibilidade">Acessibilidade</a></li>
+<li><a href="#html5">Diferenças HTML4 e HTML5</a></li>
+
+  </ul>
+
+  <h2 id="historia">História dos computadores</h2>
+<p>A <strong>história dos computadores</strong> é muito antiga. Desde o <i>ábaco</i> e máquinas de calcular como a de Pascal, já existia o desejo de facilitar cálculos e registros. Com o tempo, surgiram os primeiros computadores mecânicos, depois os elétricos e, finalmente, os digitais.</p>
+<p>Na década de 1940, o <abbr title="Electronic Numerical Integrator and Computer">ENIAC</abbr> marcou o início da era digital. Era enorme, mas já realizava cálculos automáticos. Hoje, os computadores estão por toda parte e são essenciais para a vida moderna.</p>
+<p><mark>Aprender a base histórica me ajudou a entender como a tecnologia evoluiu e o quanto a linguagem HTML é recente nesse processo.</mark></p>
+<a href="#topo">Voltar ao topo</a>
+
+  <h2 id="clients">O que são Clients?</h2>
+<p><strong>Clients</strong> (clientes) são os dispositivos ou programas que fazem pedidos a servidores. Um exemplo de client é o seu navegador de internet, como o Chrome ou Firefox. Eles pedem ao servidor os arquivos de um site e exibem para o usuário.</p>
+<p><i>Aprendi que o client nunca funciona sozinho</i>; ele depende da resposta do servidor para funcionar corretamente. <u>É como se o client fosse o "aluno" e o servidor o "professor" respondendo as dúvidas.</u></p>
+<a href="#topo">Voltar ao topo</a>
+
+  <h2 id="servers">O que são Servers?</h2>
+<p><strong>Servers</strong> (servidores) são computadores que armazenam e enviam dados para os clients. Eles estão sempre "ligados" e prontos para responder às requisições.</p>
+<p>Um site, por exemplo, está hospedado em um servidor. Quando você acessa esse site, seu navegador (client) pede os dados e o servidor responde com o conteúdo.</p>
+<p><mark>Entender a relação entre client e server foi essencial para perceber como as páginas funcionam na prática.</mark></p>
+<a href="#topo">Voltar ao topo</a>
+
+  <h2 id="estrutura">Estrutura básica do HTML</h2>
+<p>HTML significa <abbr title="HyperText Markup Language">HyperText Markup Language</abbr>. Ele é usado para estruturar o conteúdo de uma página web. Toda página começa com <strong><i>&lt;!DOCTYPE html&gt;</i></strong>, que define o tipo do documento.</p>
+<p>Depois vem a tag <u>&lt;html&gt;</u>, que envolve tudo. Dentro dela, temos o <strong>&lt;head&gt;</strong> com configurações invisíveis, como título e charset, e o <strong>&lt;body&gt;</strong>, onde fica todo o conteúdo visível: textos, imagens, listas, links, etc.</p>
+<p><i>Aprendi que a organização do HTML é como um esqueleto que sustenta todo o site.</i></p>
+<a href="#topo">Voltar ao topo</a>
+
+  <h2 id="listas">Listas ordenadas e não ordenadas</h2>
+<p>As listas são usadas para organizar informações. A <strong>lista ordenada</strong> usa a tag <i>&lt;ol&gt;</i> e mostra os itens em ordem numérica ou alfabética:</p>
+<ol>
+  <li>Primeiro item</li>
+  <li>Segundo item</li>
+</ol>
+<p>Já a <strong>lista não ordenada</strong> usa a tag <i>&lt;ul&gt;</i>, que coloca marcadores (bolinhas):</p>
+<ul>
+  <li>Item A</li>
+  <li>Item B</li>
+</ul>
+<p><mark>Com isso, aprendi a apresentar conteúdos com organização visual simples.</mark></p>
+<a href="#topo">Voltar ao topo</a>
+
+<h2 id="semantica">O que é Semântica no HTML?</h2>
+<p><strong>Semântica</strong> no HTML significa dar <u>sentido ao conteúdo</u> da página usando as <mark>tags apropriadas</mark>. Por exemplo, em vez de usar apenas <i>&lt;div&gt;</i> para tudo, o HTML5 trouxe novas tags como:</p>
+<ul>
+  <li><strong>&lt;header&gt;</strong> — representa o cabeçalho da página ou de uma seção.</li>
+  <li><strong>&lt;nav&gt;</strong> — representa os links de navegação.</li>
+  <li><strong>&lt;main&gt;</strong> — conteúdo principal do site.</li>
+  <li><strong>&lt;article&gt;</strong> — conteúdo independente e completo.</li>
+  <li><strong>&lt;aside&gt;</strong> — informações complementares (como uma barra lateral).</li>
+  <li><strong>&lt;footer&gt;</strong> — rodapé da página.</li>
+</ul>
+<p>Essas tags ajudam os navegadores, desenvolvedores e leitores de tela a entenderem a <u>função de cada parte</u> da página. Isso é essencial para <strong>acessibilidade</strong> e organização.</p>
+<p><a href="#topo">Voltar ao topo</a></p>
+
+<h2 id="acessibilidade">O que é Acessibilidade na Web?</h2>
+<p><strong>Acessibilidade</strong> na web significa garantir que <u>todas as pessoas possam acessar e entender o conteúdo</u>, incluindo pessoas com deficiências visuais, motoras ou cognitivas.</p>
+<p>Para isso, usamos boas práticas como:</p>
+<ul>
+  <li>Adicionar <strong>descrições com <i>alt</i></strong> nas imagens: <br><code>&lt;img src="imagem.jpg" alt="Descrição da imagem"&gt;</code></li>
+  <li>Usar <strong>estrutura semântica</strong> com tags adequadas (como &lt;main&gt;, &lt;article&gt;, &lt;nav&gt;).</li>
+  <li>Evitar elementos visuais confusos ou que dependam apenas de cores.</li>
+</ul>
+<p><a href="#topo">Voltar ao topo</a></p>
+
+<h2 id="html5">Diferenças entre HTML4 e HTML5</h2>
+<p>O <strong>HTML4</strong> era mais limitado e dependia muito da tag <i>&lt;div&gt;</i> para estruturar a página. Já o <strong>HTML5</strong> trouxe <mark>novos elementos semânticos</mark> e <strong>suporte nativo para áudio, vídeo e acessibilidade</strong>.</p>
+<p>Algumas <u>tags antigas foram descontinuadas</u> (deprecated), como:</p>
+<ul>
+  <li>&lt;font&gt;</li>
+  <li>&lt;center&gt;</li>
+  <li>&lt;basefont&gt;</li>
+  <li>&lt;big&gt;</li>
+  <li>&lt;strike&gt;</li>
+</ul>
+
+<p>Essas tags foram substituídas por <strong>CSS</strong> e pelas novas tags estruturais do HTML5.</p>
+
+<p>Exemplo de código moderno e semântico:</p>
+<pre>
+&lt;main&gt;
+  &lt;header&gt;&lt;h1&gt;Título do site&lt;/h1&gt;&lt;/header&gt;
+  &lt;article&gt;
+    &lt;h2&gt;Conteúdo principal&lt;/h2&gt;
+    &lt;p&gt;Texto do artigo...&lt;/p&gt;
+  &lt;/article&gt;
+  &lt;footer&gt;Rodapé do site&lt;/footer&gt;
+&lt;/main&gt;
+</pre>
+
+<p><a href="#topo">Voltar ao topo</a></p>
+
+  <h2 id="referencias">Links de referências</h2>
+<p>Esses foram os sites que mais me ajudaram a entender HTML:</p>
+<ul>
+  <li><a href="https://www.w3schools.com" target="_blank">W3Schools (em inglês, com exemplos práticos)</a></li>
+  <li><a href="https://www.dio.me" target="_blank">DIO - Digital Innovation One (plataforma de cursos)</a></li>
+  <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs (documentação oficial da Mozilla)</a></li>
+</ul>
+
+  <hr>
+
+  <h3>Outros exemplos de tags:</h3>
+  <p><small>Este texto é pequeno com a tag &lt;small&gt;.</small></p>
+  <p>Este texto possui <del>um erro</del> corrigido.</p>
+  <p>2<sup>2</sup> = 4 e H<sub>2</sub>O é água.</p>
+  <blockquote cite="https://pt.wikipedia.org/wiki/HTML">
+    HTML é a linguagem de marcação utilizada para estruturar o conteúdo da web.
+  </blockquote>
+  <p><q cite="https://developer.mozilla.org">A web é para todos.</q></p>
+  <p><font color="blue">Texto azul com a tag &lt;font&gt;.</font></p>
+</body>
+</html
